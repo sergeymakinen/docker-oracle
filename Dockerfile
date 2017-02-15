@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y zip unzip \
     && rm -rf /var/lib/apt/lists/*
 VOLUME /u01/app/oracle
 
+ADD prepare.sql /docker-entrypoint-initdb.d/prepare.sql
 ADD prepare.sh /usr/sbin/prepare
 RUN chmod +x /usr/sbin/prepare
 CMD /usr/sbin/prepare && /usr/sbin/startup.sh && tail -f /dev/null
