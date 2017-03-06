@@ -20,19 +20,19 @@ docker pull sergeymakinen/oracle
 
 ## How to use this image
 
-##### Start an instance
+#### Start an instance
 
 ```bash
 docker run --name some-oracle -p 34000:1521 -d sergeymakinen/oracle
 ```
 
-##### Start with persistent storage
+#### Start with persistent storage
 
 ```bash
 docker run --name some-oracle -p 34000:1521 -t ./data:/u01/app/oracle -d sergeymakinen/oracle
 ```
 
-##### Connect to it
+#### Connect to it
 
 Parameter | Value
 --- | ---
