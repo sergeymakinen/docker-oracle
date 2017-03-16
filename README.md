@@ -1,6 +1,6 @@
 # Oracle Database Dockerfile
 
-This repository contains **Dockerfile** of Oracle Database Express Edition 11g Release 2 on Ubuntu 16.04 LTS for [Docker](https://www.docker.com/)'s [automated build](https://hub.docker.com/r/sergeymakinen/oracle/) published to [Docker Hub](https://hub.docker.com/).
+This repository contains **Dockerfile** of Oracle Database Express Edition 11g Release 2 on Ubuntu 14.04.1 LTS for [Docker](https://www.docker.com/)'s [automated build](https://hub.docker.com/r/sergeymakinen/oracle/) published to [Docker Hub](https://hub.docker.com/).
 
 [![Build Type](https://img.shields.io/docker/automated/sergeymakinen/oracle.svg?style=flat-square)](https://hub.docker.com/r/sergeymakinen/oracle/) [![Total Stars](https://img.shields.io/docker/stars/sergeymakinen/oracle.svg?style=flat-square)](https://hub.docker.com/r/sergeymakinen/oracle/) [![Total Pulls](https://img.shields.io/docker/pulls/sergeymakinen/oracle.svg?style=flat-square)](https://hub.docker.com/r/sergeymakinen/oracle/) [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
